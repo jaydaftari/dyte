@@ -156,7 +156,7 @@ app.get("/action", async function (req, res, err) {
         if (validateipv4(ip) || validateipv6(ip)) {
             var data = await links.find();
             console.log(data.length)
-            var x = length / 30;
+            var x = length / 20; // for processing 20 links in a batch and remaining procesiing parallely
 
             const { results, errors } = await PromisePool //here I have done for 5 times my embedding my code four my times so that if it fails one time it will try four more times
                 .for(data)
