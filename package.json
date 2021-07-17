@@ -1,0 +1,23 @@
+{
+  "name": "dyte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supercharge/promise-pool": "^1.7.0",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "ip-validator": "0.0.1",
+    "moleculer": "^0.14.15",
+    "mongoose": "^5.13.3",
+    "moongoose": "0.0.5"
+  }
+}
